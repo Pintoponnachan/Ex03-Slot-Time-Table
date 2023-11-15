@@ -26,149 +26,116 @@ Execute the program using runserver command.
 
 ## PROGRAM
 ```html
+<!doctype html>
 <html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slot Timetable</title>
-    <style>
-        .table1{
-            background-color:darkgoldenrod ;
-            border-color: gray;
-            text-align: center;
-            width: 800px;
-            height: 250px;
-        }
-        .table2{
-            border-color: gray;
-            text-align: center;
-            width: 800px;
-            height: 250px; 
-        }
-        .name{
-            padding-left: 185px;
-        }
-        .row1{
-            background-color: bisque;
-        }
-        .c1{
-            background-color: bisque;
-        }
-    </style>
-</head>
-<body>
-    <img src = "http://training.saveetha.in/pluginfile.php/1/core_admin/logo/0x150/1623542614/logo_1.png" width = "800" height="150">
-    <h3 class = "name">SLOT TIMETABLE - MUGILAN P (212221040107)</h3>
-    <table border="1" class = "table1">
-        <tr class = "row1">
-            <th class="c1">Day/Time</th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-            <th>Saturday</th>
-        </tr>
-        <tr>
-            <td class="c1">8-10</td>
-            <td>DAA</td>
-            <td>MC</td>
-            <td>Free</td>
-            <td>FWAD</td>
-            <td>EES</td>
-            <td>FWAD</td>
-        </tr>
-        <tr>
-            <td class="c1">10-12</td>
-            <td>Free</td>
-            <td>CNS</td>
-            <td>CNS</td>
-            <td>Free</td>
-            <td>DAA/DW</td>
-            <td>Free</td>
-            
-        </tr>
-        <tr>
-            <td class="c1">12-1</td>
-            <th colspan="6">LUNCH BREAK</th>
-        </tr>
-        <tr>
-            <td class="c1">1-3</td>
-            <td>MAD</td>
-            <td>Free</td>
-            <td>DW</td>
-            <td>Free</td>
-            <td>CD</td>
-            <td>Free</td>
-        </tr>
-        <tr>
-            <td class="c1">3-5</td>
-            <td>Free</td>
-            <td>FWAD</td>
-            <td>CD</td>
-            <td>Free</td>
-            <td>MC</td>
-            <td>MAD</td>
-        </tr>
+  <head bg=""C:\Users\SEC\Downloads\logo.png"">
+    <title>Slot time table</title>
+  </head>
+  <body>
+    <img src="logo.png" >
+    <h2 align="center"> <b>Slot time table-Pinto ponnachan(212221040121)</b></h2>
+    <table bgcolor="white" align="center" border="15" cellpadding="15" cellspacing="4">
+      <tr bgcolor="#7fffd4">
+        <th>Day/time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+      </tr>
+      <tr>
+        <td bgcolor="f8f6f0">
+          8-10
+        </td>
+        <td bgcolor="87cefa">FREE SLOT</td>
+        <td bgcolor="c77cfa">Mobile computing</td>
+        <td bgcolor="#ccccff">MPMC</td>
+        <td bgcolor="#fdd7e4">WEB</td>
+        <td bgcolor="87cefa">FREE SLOT</td>
+        <td bgcolor="#fdd7e4">WEB</td>
+      </tr>
+      <tr>
+        <td bgcolor="f8f6f0">10-12</td>
+        <td bgcolor="87cefa">FREE SLOT</td>
+        <td bgcolor="87cefa">FREE SLOT</td>
+        <td bgcolor="99c68e">MAD</td>
+        <td bgcolor="87ceCC">game programming</td>
+        <td bgcolor="ccccff">MPMC</td>
+        <td bgcolor="87cefa">CNS</td>
+      </tr>
+      <tr>
+        <td bgcolor="f8f6f0">12-1</td>
+        <td bgcolor="dbf9db" colspan="6">LUNCH</td>
+      </tr>
+      <tr>
+        <td bgcolor="f8f6f0">1-3</td>
+        <td bgcolor="ccccff">MPMC</td>
+        <td bgcolor="99c68e">MAD</td>
+        <td bgcolor="87ceCC">Game programming</td>
+        <td bgcolor="87cefa">FREE SLOT</td>
+        <td bgcolor="#faf0dd">CD</td>
+        <td bgcolor="87cefa">FREE SLOT</td>
+      </tr>
+      <tr>
+        <td bgcolor="f8f6f0">4-5</td>
+        <td bgcolor="87cefa">CNS</td>
+        <td bgcolor="#fdd7e4">WEB</td>
+        <td bgcolor="#faf0dd">CD</td>
+        <td bgcolor="87cefa">FREE SLOT</td>
+        <td bgcolor="c77cfa">Mobile computing</td>
+        <td bgcolor="87cefa">FREE SLOT</td>
+      </tr>
     </table>
-    <br>
-    <br>
-    <table border="1" class="table2">
-        <tr>
-            <th>S.No.</th>
-            <th>Subject Code</th>
-            <th>Subject Name</th>
-        </tr>
-        <tr>
-            <td>1.</td>
-            <td>19AI414</td>
-            <td>Fundamentals of Web Applications Development (FWAD)</td>
-        </tr>
-        <tr>
-            <td>2.</td>
-            <td>19CS402</td>
-            <td>Design Analysis and Algorithm (DAA)</td>
-        </tr>
-        <tr>
-            <td>3.</td>
-            <td>19CS412</td>
-            <td>Cryptography and Network Security (CNS)</td>
-        </tr>
-        <tr>
-            <td>4.</td>
-            <td>19CS517</td>
-            <td>Mobile Computing (MC)</td>
-        </tr>
-        <tr>
-            <td>5.</td>
-            <td>19CS521</td>
-            <td>Data Warehousing and Data Mining (DW)</td>
-        </tr>
-        <tr>
-            <td>6.</td>
-            <td>19EY705</td>
-            <td>Employment Enhancement Skills (EES)</td>
-        </tr>
-        <tr>
-            <td>7.</td>
-            <td>19CS409</td>
-            <td>Complier Design (CD)</td>
-        </tr>
-        <tr>
-            <td>8.</td>
-            <td>19CS414</td>
-            <td>Mobile Application Development (MAD)</td>
-        </tr>
-    </table>
-</body>
+  </body>
 </html>
+<br>
+    <table bgcolor="white" align="center" border="10" cellpadding="10" cellspacing="4">
+      <tr>
+        <th>S.NO</th>
+        <th>Subject Code</th>
+        <th>Subject Name</th>
+      </tr>
+      <tr>
+        <td>1.</td>
+        <td>19AI414</td>
+        <td>Fundamentals of Web Application Development(WEB)</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>19CS409</td>
+        <td>Compiler design(CD)</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td>19CS414</td>
+        <td>Mobile application development(MAD)</td>
+      </tr>
+      <tr>
+        <td>4.</td>
+        <td>19CS412</td>
+        <td>Cryptography and network security(CNS)</td>
+      </tr>
+      <tr>
+        <td>5.</td>
+        <td>19EC408</td>
+        <td>Microprocessor and microcontroller(MPMC)</td>
+      </tr>
+      <tr>
+        <td>6.</td>
+        <td>19AI513</td>
+        <td>Game programming</td>
+        <tr>
+          <td>7.</td>
+          <td>19CS517</td>
+          <td>Mobile computing</td>
+        </tr>
 ```
 
 
 ## OUTPUT
-![image](https://github.com/Pintoponnachan/Ex03-Slot-Time-Table/assets/131936892/aedf9e9a-65e2-45c8-9278-66780e4e0651)
+![image](https://github.com/Pintoponnachan/Ex03-Slot-Time-Table/assets/131936892/b4855fa3-a70e-4f34-8e67-2dc8d133475a)
+
 
 
 ## RESULT
