@@ -134,7 +134,8 @@ Execute the program using runserver command.
 
 
 ## OUTPUT
-![image](https://github.com/Pintoponnachan/Ex03-Slot-Time-Table/assets/131936892/b4855fa3-a70e-4f34-8e67-2dc8d133475a)
+![image](https://github.com/Pintoponnachan/Ex03-Slot-Time-Table/assets/131936892/7dd2bf70-3eee-4e7d-bbc1-12da196e4345)
+
 
 
 
